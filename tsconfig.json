@@ -1,4 +1,6 @@
 {
+  "noImplicitAny": false,
+  "allowJs": true,
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -13,6 +15,10 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
+      "axios",
+      "pinia",
+      "markdown-it",
+      "highlight",
       "webpack-env"
     ],
     "paths": {
@@ -25,10 +31,15 @@
       "dom",
       "dom.iterable",
       "scripthost"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
     ]
   },
   "include": [
     "src/**/*.ts",
+    "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",

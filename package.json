@@ -3,16 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 8001 --address 0.0.0.0",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
+    "element-plus": "^2.9.3",
+    "github-markdown-css": "^5.8.1",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "marked": "^15.0.6",
+    "md-editor-v3": "^5.2.1",
+    "particles.js": "^2.0.0",
+    "pinia": "^2.3.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",

@@ -14,8 +14,6 @@ import java.util.Date;
 public class Algorithm {
     private Long id;
     private String title;
-    private String description;
-    private String content;
     private String category;
     private String difficulty;
     private String timeComplexity;
@@ -23,6 +21,5 @@ public class Algorithm {
     private Date createTime;
     private Date updateTime;
     private Integer readCount;
-    private String dir;
-    private String solution;
+    private String content;  // 不存储在数据库中,用于前端展示
 } 

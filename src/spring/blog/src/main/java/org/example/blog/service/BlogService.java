@@ -138,7 +138,7 @@ public class BlogService {
                 java.nio.file.Paths.get(markdownPath + "/" + id + ".md")
             );
         } catch (IOException e) {
-            log.error("Failed to delete markdown file for blog id: " + id, e);
+            log.error("Failed to delete markdown file for blog id: {}", id, e);
             // 不抛出异常，因为数据库记录已经删除
         }
     }

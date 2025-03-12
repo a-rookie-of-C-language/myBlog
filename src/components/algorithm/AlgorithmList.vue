@@ -15,7 +15,7 @@
           <router-link :to="`/algorithm/${item.id}`" class="item-link">
             <div class="item-header">
               <h2 class="item-title">{{ item.title }}</h2>
-              <el-tag :type="getDifficultyType(item.difficulty)" size="small">
+              <el-tag :type="getDifficultyType(item.difficulty)" size="large">
                 {{ item.difficulty }}
               </el-tag>
             </div>
@@ -103,13 +103,6 @@ const getAlgorithms = async () => {
 const handlePageChange = (page: number) => {
   currentPage.value = page
   getAlgorithms()
-}
-
-// 为 particlesJS 声明类型
-declare global {
-  interface Window {
-    particlesJS: (id: string, config: any) => void
-  }
 }
 
 // 初始化粒子效果

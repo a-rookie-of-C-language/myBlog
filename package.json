@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve --port 8001 --address 0.0.0.0",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-static": "node generate-static-files.js",
+    "predeploy": "npm run generate-static && npm run build"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -36,7 +38,7 @@
     "@vue/eslint-config-typescript": "^9.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "typescript": "~4.5.5"
+    "typescript": "^5.8.2"
   },
   "eslintConfig": {
     "root": true,

@@ -3,12 +3,12 @@
   "message": "success",
   "data": {
     "id": "adviceBooks-0",
-    "title": "Javascript good parts",
+    "title": "Algorithms",
     "category": "adviceBooks",
-    "type": "markdown",
-    "path": "resources/adviceBooks/javascript-good-parts.md",
-    "createTime": "2023-01-01T00:00:00.000Z",
-    "updateTime": "2023-01-01T00:00:00.000Z",
+    "type": "text",
+    "path": "resources/adviceBooks/algorithms.jpg",
+    "createTime": "2025-03-13T08:10:41.584Z",
+    "updateTime": "2025-03-13T08:10:41.584Z",
     "readCount": 0
   }
 }

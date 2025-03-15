@@ -5,7 +5,7 @@ import { ElMessage } from 'element-plus'
 // 创建 axios 实例
 const service: AxiosInstance = axios.create({
   baseURL: process.env.NODE_ENV === 'production' 
-    ? 'https://api.example.com' // 生产环境API地址，需要替换为实际的API地址
+    ? '/myBlog' // 生产环境使用相对路径，适配GitHub Pages
     : 'http://localhost:3000',
   timeout: 5000
 })

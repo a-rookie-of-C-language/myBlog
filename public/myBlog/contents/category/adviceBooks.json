@@ -4,12 +4,42 @@
   "data": [
     {
       "id": "adviceBooks-0",
+      "title": "Algorithms",
+      "category": "adviceBooks",
+      "type": "text",
+      "path": "resources/adviceBooks/algorithms.jpg",
+      "createTime": "2025-03-13T08:10:41.584Z",
+      "updateTime": "2025-03-13T08:10:41.584Z",
+      "readCount": 0
+    },
+    {
+      "id": "adviceBooks-1",
       "title": "Javascript good parts",
       "category": "adviceBooks",
       "type": "markdown",
       "path": "resources/adviceBooks/javascript-good-parts.md",
-      "createTime": "2023-01-01T00:00:00.000Z",
-      "updateTime": "2023-01-01T00:00:00.000Z",
+      "createTime": "2025-03-13T14:05:55.080Z",
+      "updateTime": "2025-03-13T14:05:57.371Z",
+      "readCount": 0
+    },
+    {
+      "id": "adviceBooks-2",
+      "title": "Js",
+      "category": "adviceBooks",
+      "type": "text",
+      "path": "resources/adviceBooks/js.jpg",
+      "createTime": "2025-03-13T08:10:41.586Z",
+      "updateTime": "2025-03-13T08:10:41.586Z",
+      "readCount": 0
+    },
+    {
+      "id": "adviceBooks-3",
+      "title": "Jvm",
+      "category": "adviceBooks",
+      "type": "text",
+      "path": "resources/adviceBooks/jvm.jpg",
+      "createTime": "2025-03-13T08:10:41.588Z",
+      "updateTime": "2025-03-13T08:10:41.588Z",
       "readCount": 0
     }
   ]

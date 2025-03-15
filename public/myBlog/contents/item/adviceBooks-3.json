@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "id": "adviceBooks-3",
+    "title": "Jvm",
+    "category": "adviceBooks",
+    "type": "text",
+    "path": "resources/adviceBooks/jvm.jpg",
+    "createTime": "2025-03-13T08:10:41.588Z",
+    "updateTime": "2025-03-13T08:10:41.588Z",
+    "readCount": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "id": "adviceBooks-2",
+    "title": "Js",
+    "category": "adviceBooks",
+    "type": "text",
+    "path": "resources/adviceBooks/js.jpg",
+    "createTime": "2025-03-13T08:10:41.586Z",
+    "updateTime": "2025-03-13T08:10:41.586Z",
+    "readCount": 0
+  }
+}

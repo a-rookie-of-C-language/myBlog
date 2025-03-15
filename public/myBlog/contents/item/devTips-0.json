@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "id": "devTips-0",
+    "title": "Git workflow",
+    "category": "devTips",
+    "type": "markdown",
+    "path": "resources/devTips/git-workflow.md",
+    "createTime": "2023-01-01T00:00:00.000Z",
+    "updateTime": "2023-01-01T00:00:00.000Z",
+    "readCount": 0
+  }
+}

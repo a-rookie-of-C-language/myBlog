@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": "adviceBooks-0",
+      "title": "Javascript good parts",
+      "category": "adviceBooks",
+      "type": "markdown",
+      "path": "resources/adviceBooks/javascript-good-parts.md",
+      "createTime": "2023-01-01T00:00:00.000Z",
+      "updateTime": "2023-01-01T00:00:00.000Z",
+      "readCount": 0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": "# 快速排序算法\n\n## 算法简介\n\n快速排序是一种高效的排序算法，由英国计算机科学家Tony Hoare于1960年提出。它采用分治法（Divide and Conquer）的策略，通过选择一个"基准元素

@@ -1,0 +1,5 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": "# JavaScript语言精粹\n\n## 书籍简介\n\n《JavaScript语言精粹》是由Douglas Crockford所著，被誉为JavaScript领域的经典之作。这本书并不厚，但它精确地指出了JavaScript中的精华和糟粕，帮助开发者更好地理解和使用这门语言。\n\n![JavaScript语言精粹](js.jpg)\n\n## 为什么推荐\n\n尽管JavaScript已经发展了多个版本，但这本书所讨论的核心概念和最佳实践至今仍然适用。作者Douglas Crockford是JavaScript领域的权威，他不仅深入浅出地讲解了JavaScript的精华部分，还毫不留情地指出了语言中应该避免使用的特性。\n\n## 主要内容\n\n### 精华部分\n\n- **对象**：JavaScript中一切皆对象的概念\n- **函数**：函数是第一类对象，闭包的强大特性\n- **继承**：基于原型的继承模式\n- **数组**：JavaScript数组的特性和常用方法\n- **正则表达式**：强大的文本处理工具\n\n### 避免的糟粕\n\n- 全局变量\n- `with`语句\n- `eval`函数\n- `==`运算符\n- `void`运算符"
+}

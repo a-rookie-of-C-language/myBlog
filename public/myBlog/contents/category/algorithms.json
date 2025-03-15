@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": "algorithms-0",
+      "title": "Quick sort",
+      "category": "algorithms",
+      "type": "markdown",
+      "path": "resources/algorithms/quick-sort.md",
+      "createTime": "2023-01-01T00:00:00.000Z",
+      "updateTime": "2023-01-01T00:00:00.000Z",
+      "readCount": 0
+    }
+  ]
+}

@@ -82,9 +82,20 @@ const fetchAlgorithmDetail = async () => {
     const response = await algorithmApi.getAlgorithmById(id)
     if(response.code === 200){
       algorithm.value = response.data
+      
+      // 获取算法内容文件
+      const contentResponse = await algorithmApi.getAlgorithmContent(id)
+      if (contentResponse.code === 200) {
+        algorithm.value.content = contentResponse.data
+      }
+      
+      // 增加阅读计数
+      algorithmApi.incrementReadCount(id).catch(error => {
+        console.error('增加阅读计数失败:', error)
+      })
     }
   } catch (error) {
-    console.error('获取博客详情失败:', error)
+    console.error('获取算法详情失败:', error)
   } finally {
     loading.value = false
   }

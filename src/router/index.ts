@@ -45,11 +45,30 @@ const routes: Array<RouteRecordRaw> = [
       title: '算法详情',
       requireAuth: true
     }
+  },
+  // 新增内容相关路由
+  {
+    path: '/content/category/:category',
+    name: 'ContentList',
+    component: () => import('@/components/content/ContentList.vue'),
+    props: true,
+    meta: {
+      title: '内容列表'
+    }
+  },
+  {
+    path: '/content/:id',
+    name: 'ContentDetail',
+    component: () => import('@/components/content/ContentDetail.vue'),
+    props: true,
+    meta: {
+      title: '内容详情'
+    }
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.NODE_ENV === 'production' ? '/myBlog/' : '/'),
   routes
 })
 

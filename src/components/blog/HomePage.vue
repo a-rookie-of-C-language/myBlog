@@ -79,19 +79,19 @@ const categories = ref<string[]>([])
 const menuItems = [
   { 
     name: '开发技巧', 
-    path: '/category/dev-tips', 
+    path: '/content/category/devTips',
     icon: Monitor,
     description: '分享实用的编程技巧和开发经验',
   },
   { 
     name: '推荐书籍', 
-    path: '/category/recommended-books', 
+    path: '/content/category/adviceBooks', 
     icon: Reading,
     description: '精选技术书籍推荐与读书笔记',
   },
   { 
     name: '算法分析', 
-    path: '/category/algorithm', 
+    path: '/content/category/algorithms', 
     icon: DataLine,
     description: '深入浅出的算法解析与实现',
   },
@@ -280,4 +280,4 @@ const menuItems = [
     padding: 20px;
   }
 }
-</style> 
+</style>

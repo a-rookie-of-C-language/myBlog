@@ -1,5 +1,6 @@
 import request from '@/utils/request'
 import type { BaseResponse } from '@/utils/request'
+import { ContentCategory } from './content'
 
 interface Book {
   id: number
@@ -12,7 +13,7 @@ interface Book {
 export const bookApi = {
   getAllBooks(): Promise<BaseResponse<Book[]>> {
     return request({
-      url: '/books',
+      url: `/myBlog/contents/category/${ContentCategory.ADVICE_BOOKS}`,
       method: 'GET'
     })
   }
